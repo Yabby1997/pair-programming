@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .blue
         configureUI()
+        
+        print("HEllo world")
     }
     
     private func configureUI() {
