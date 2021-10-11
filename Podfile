@@ -7,5 +7,6 @@ target 'pair-programming' do
 
   # Pods for pair-programming
   pod 'SnapKit'
+  pod 'SwiftLint'
 
 end

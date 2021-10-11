@@ -8,12 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var something: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let sdf = something as! Int
     }
-
-
 }
-
