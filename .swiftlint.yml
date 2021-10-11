@@ -4,14 +4,12 @@ disabled_rules:
   - control_statement
 opt_in_rules:
   - empty_count
-  - missing_docs
+  - anonymous_argument_in_multiline_closure
 included:
   - pair-programming
 excluded:
-  - Carthage
   - Pods
-  - Source/ExcludedFolder
-  - Source/ExcludedFile.swift
+  - pair-programming/ExcludedFolder
 
 force_cast: warning
 force_try:
@@ -31,7 +29,7 @@ type_name:
   excluded: iPhone 
 identifier_name:
   min_length:
-    error: 10
+    error: 4
   excluded:
     - id
     - URL

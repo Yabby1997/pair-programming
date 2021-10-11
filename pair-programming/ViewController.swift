@@ -8,10 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var something: Int?
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sdf = something as! Int
     }
 }
